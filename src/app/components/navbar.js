@@ -23,8 +23,12 @@ const navLinks = [
 ]
 function Navbar(){
     const [navbar, setNavbar] = useState(false);
+   function handleClickClose(val){
+        console.log("val",val);
+        setNavbar(val);
+    }
     return <Fragment>
-        <nav className="fixed top-0 left-0 right-0 z-10 bg-[#fff] shadow">
+        <nav className="fixed top-0 left-0 right-0 z-10 bg-[#fff] shadow ">
             <div className="flex flex-wrap items-center justify-between mx-auto py-4 px-3">
                 <Link href="/" className="text-4xl font-bold">Portfolio</Link>
                 <div className="mobile-menu block md:hidden">
@@ -51,7 +55,7 @@ function Navbar(){
                     </ul>
                 </div>
             </div>
-            { navbar && <MenuOverlay links={navLinks}/> }
+            { navbar && <MenuOverlay links={navLinks} onClickClose={handleClickClose}/> }
         </nav>
     </Fragment>
 }

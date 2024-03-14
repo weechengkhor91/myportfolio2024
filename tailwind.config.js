@@ -20,6 +20,7 @@ module.exports = {
       'my-color':'#252525',
       'link-hover':'#a855f7',
       'big-header':'#e7edfd',
+      'overall-bg':'#f4f7ff',
       primary:colors.purple,
       secondary:colors.pink
       // primary: '#ffc520',
@@ -28,3 +29,10 @@ module.exports = {
   },
   plugins: [],
 };
+
+/*
+#182061
+#16267d
+#f4b504
+
+*/
