@@ -15,24 +15,19 @@ module.exports = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
-    colors:{
+
+    colors: {
       ...colors,
-      'my-color':'#252525',
-      'link-hover':'#a855f7',
-      'big-header':'#e7edfd',
-      'overall-bg':'#f4f7ff',
-      primary:colors.purple,
-      secondary:colors.pink
-      // primary: '#ffc520',
-      // secondary: '#ff724c',
-    }
+      // red: "#de3618",
+      "my-color": "#252525",
+      "link-hover": "#a855f7",
+      "big-header": "#e7edfd",
+      "overall-bg": "#f4f7ff",
+      // primary: colors.purple,
+      // secondary: "#000000",
+      primary: colors.blue,
+      secondary: colors.blue,
+    },
   },
   plugins: [],
 };
-
-/*
-#182061
-#16267d
-#f4b504
-
-*/

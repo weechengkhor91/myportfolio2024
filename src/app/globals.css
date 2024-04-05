@@ -1,23 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @tailwind base;
+@tailwind components;
+ */
 
 .tab-detail {
-  margin-bottom:15px;
+  margin-bottom: 15px;
 }
 .tab-header {
-  font-weight:700;
+  font-weight: 700;
 }
 .tab-year {
-  font-size:10px;
-  font-weight:400;
-  color:#787878;
+  font-size: 10px;
+  font-weight: 400;
+  color: #787878;
 }
 html {
   scroll-behavior: smooth;
 }
 body {
-  background-color:#f4f7ff;
+  background-color: #f4f7ff;
 }
 ul.circle {
   list-style-type: circle;
